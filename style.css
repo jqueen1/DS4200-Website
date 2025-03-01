@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif; /* Default font */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 20px; /* Add some margin around the entire page */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{ /*Changes color of link when hovering*/
+    color: #f4f4f4
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px; /* Space between sections */
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    display: block; /* Remove extra space below images */
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* --- Customizations (Requirement) --- */
+
+/* 1. Custom Font (Example using Google Fonts) */
+/*  Go to fonts.google.com, choose a font, and get the embed code.
+    Place the <link> code in the <head> of your HTML files.
+    Then, use the font-family in your CSS. */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Example: Using Roboto */
+}
+
+/* 2. Color Scheme Changes */
+header {
+    background-color: #0056b3; /* Darker blue header */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Yellow hover color for links */
+}
+
+/* 3. Custom Margins/Padding/Layout */
+#introduction {
+    padding: 30px;
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#interest-details ul {
+    margin-left: 20px; /* Indent the list */
+}
