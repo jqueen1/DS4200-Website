@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color:#fae5f0;
+    color: #0c0b0b; /* Dark gray text */
+    margin: 20px; /* Add some margin around the entire page */
+    text-align:center;
+}
+
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #98bade; 
+    background: linear-gradient(to right, #98bade, #6f94c4);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header:hover {
+    background: linear-gradient(to right, #e39ec6, #4a78b0);
+    transform: scale(1.01); 
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #15396f;
+    text-decoration: none;
+}
+nav a:hover{ /*Changes color of link when hovering*/
+    color: #f4f4f4
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px; /* Space between sections */
+}
